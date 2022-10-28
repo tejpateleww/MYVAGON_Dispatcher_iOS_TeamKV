@@ -1,0 +1,6 @@
+framework module Pods_MyVagonDispatcher {
+  umbrella header "Pods-MyVagonDispatcher-umbrella.h"
+
+  export *
+  module * { export * }
+}

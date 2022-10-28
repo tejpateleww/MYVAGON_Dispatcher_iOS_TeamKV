@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="179" id="KGk-i7-Jjw" customClass="DriversTableViewCell" customModule="MyVagonDispatcher" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="941" height="179"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="941" height="179"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="awt-gU-er4">
+                        <rect key="frame" x="0.0" y="0.0" width="941" height="179"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E9U-QX-ZXN">
+                                <rect key="frame" x="8" y="8" width="925" height="163"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="SEn-HQ-7Uw">
+                                        <rect key="frame" x="0.0" y="0.0" width="925" height="163"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IHZ-tH-7Ou">
+                                                <rect key="frame" x="0.0" y="0.0" width="925" height="108"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_userIcon" translatesAutoresizingMaskIntoConstraints="NO" id="p1n-LA-6OZ">
+                                                        <rect key="frame" x="12" y="10" width="65" height="65"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="65" id="axa-Vq-3tB"/>
+                                                            <constraint firstAttribute="width" constant="65" id="v82-kD-3JC"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Mike Rose" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Mf-RB-Lfs" customClass="themeLabel" customModule="MyVagonDispatcher" customModuleProvider="target">
+                                                        <rect key="frame" x="92" y="15" width="78" height="29"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="Font_Size">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isMedium" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_Selected" translatesAutoresizingMaskIntoConstraints="NO" id="2sW-LO-SCU">
+                                                        <rect key="frame" x="92" y="49" width="15" height="15"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="15" id="ts9-CC-16x"/>
+                                                            <constraint firstAttribute="height" constant="15" id="x5q-BI-rKS"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="4.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2T-9W-BqC" customClass="themeLabel" customModule="MyVagonDispatcher" customModuleProvider="target">
+                                                        <rect key="frame" x="109" y="48" width="21" height="17"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="Font_Size">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_PickUp" translatesAutoresizingMaskIntoConstraints="NO" id="20e-eh-5SI">
+                                                        <rect key="frame" x="92" y="76" width="20" height="0.0"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="20" id="4MA-Jb-1O2"/>
+                                                            <constraint firstAttribute="height" id="SXa-fr-4wX"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Athina 112 57,Greece" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKB-gz-t9H" customClass="themeLabel" customModule="MyVagonDispatcher" customModuleProvider="target">
+                                                        <rect key="frame" x="114" y="76" width="796" height="0.0"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" id="efo-Z4-siX"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="Font_Size">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                                <color key="value" red="0.062745098040000002" green="0.058823529409999999" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="dF6-nc-02I">
+                                                        <rect key="frame" x="92" y="78" width="818" height="20"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Available" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4d2-w7-6sP" customClass="themeLabel" customModule="MyVagonDispatcher" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="160" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="MBb-DC-DyN"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="Font_Size">
+                                                                        <real key="value" value="12"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                                        <color key="value" name="ThemeGreenColor"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Inactive" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CM3-CY-lJs" customClass="themeLabel" customModule="MyVagonDispatcher" customModuleProvider="target">
+                                                                <rect key="frame" x="160" y="0.0" width="140.5" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="0OG-UI-c7i"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="Font_Size">
+                                                                        <real key="value" value="12"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                                        <color key="value" name="ThemeTamotoColor"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Vehicle Not Assigned" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFP-BG-NfJ" customClass="themeLabel" customModule="MyVagonDispatcher" customModuleProvider="target">
+                                                                <rect key="frame" x="300.5" y="0.0" width="382.5" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="HbB-TU-gbp"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="Font_Size">
+                                                                        <real key="value" value="12"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                                        <color key="value" name="ThemeTamotoColor"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Loaded" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5s-eA-DDM" customClass="themeLabel" customModule="MyVagonDispatcher" customModuleProvider="target">
+                                                                <rect key="frame" x="683" y="0.0" width="135" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="YaS-CY-w2c"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="Font_Size">
+                                                                        <real key="value" value="12"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                                        <color key="value" name="ThemeDarkYelloColor"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdZ-Hb-KQH" customClass="themeLabel" customModule="MyVagonDispatcher" customModuleProvider="target">
+                                                        <rect key="frame" x="915" y="10" width="0.0" height="39"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="Font_Size">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                                <color key="value" red="0.60784313729999995" green="0.31764705879999999" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MG8-Dd-HEp" customClass="themeLabel" customModule="MyVagonDispatcher" customModuleProvider="target">
+                                                        <rect key="frame" x="920" y="101" width="0.0" height="0.0"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                                <color key="value" name="ThemeGrayColor"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="Font_Size">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ry4-dM-mKJ" customClass="themeLabel" customModule="MyVagonDispatcher" customModuleProvider="target">
+                                                        <rect key="frame" x="920" y="103" width="0.0" height="0.0"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                                <color key="value" name="ThemeGrayColor"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="Font_Size">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="ry4-dM-mKJ" firstAttribute="top" secondItem="MG8-Dd-HEp" secondAttribute="bottom" constant="2" id="0Ri-T1-TJh"/>
+                                                    <constraint firstItem="h2T-9W-BqC" firstAttribute="centerY" secondItem="2sW-LO-SCU" secondAttribute="centerY" id="69P-Su-xSa"/>
+                                                    <constraint firstItem="zdZ-Hb-KQH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2Mf-RB-Lfs" secondAttribute="trailing" constant="5" id="9OJ-aP-sGL"/>
+                                                    <constraint firstItem="p1n-LA-6OZ" firstAttribute="leading" secondItem="IHZ-tH-7Ou" secondAttribute="leading" constant="12" id="Coy-aO-PyT"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ry4-dM-mKJ" secondAttribute="bottom" constant="5" id="DMk-6P-Kl3"/>
+                                                    <constraint firstItem="SKB-gz-t9H" firstAttribute="centerY" secondItem="20e-eh-5SI" secondAttribute="centerY" id="DT2-fL-Wb0"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ry4-dM-mKJ" secondAttribute="trailing" constant="5" id="FGD-PK-TjJ"/>
+                                                    <constraint firstItem="MG8-Dd-HEp" firstAttribute="leading" secondItem="SKB-gz-t9H" secondAttribute="trailing" constant="10" id="JRh-kT-nXa"/>
+                                                    <constraint firstAttribute="trailing" secondItem="zdZ-Hb-KQH" secondAttribute="trailing" constant="10" id="Lcc-NR-1Ay"/>
+                                                    <constraint firstItem="dF6-nc-02I" firstAttribute="top" secondItem="SKB-gz-t9H" secondAttribute="bottom" constant="2" id="MIQ-6X-eU5"/>
+                                                    <constraint firstItem="h2T-9W-BqC" firstAttribute="leading" secondItem="2sW-LO-SCU" secondAttribute="trailing" constant="2" id="MQp-fo-MbZ"/>
+                                                    <constraint firstItem="ry4-dM-mKJ" firstAttribute="leading" secondItem="MG8-Dd-HEp" secondAttribute="leading" id="OS7-Ax-zsK"/>
+                                                    <constraint firstItem="zdZ-Hb-KQH" firstAttribute="centerY" secondItem="2Mf-RB-Lfs" secondAttribute="centerY" id="S2L-aw-Tzs"/>
+                                                    <constraint firstItem="2Mf-RB-Lfs" firstAttribute="top" secondItem="IHZ-tH-7Ou" secondAttribute="top" constant="15" id="SPc-cI-1Fw"/>
+                                                    <constraint firstAttribute="bottom" secondItem="dF6-nc-02I" secondAttribute="bottom" constant="10" id="Sbx-Ib-TVE"/>
+                                                    <constraint firstItem="2sW-LO-SCU" firstAttribute="top" secondItem="2Mf-RB-Lfs" secondAttribute="bottom" constant="5" id="XMh-jx-dEi"/>
+                                                    <constraint firstItem="20e-eh-5SI" firstAttribute="leading" secondItem="2Mf-RB-Lfs" secondAttribute="leading" id="XOf-AB-mVj"/>
+                                                    <constraint firstItem="SKB-gz-t9H" firstAttribute="leading" secondItem="20e-eh-5SI" secondAttribute="trailing" constant="2" id="aYV-g6-fiS"/>
+                                                    <constraint firstItem="zdZ-Hb-KQH" firstAttribute="top" secondItem="IHZ-tH-7Ou" secondAttribute="top" constant="10" id="b1W-6D-Lec"/>
+                                                    <constraint firstItem="2sW-LO-SCU" firstAttribute="leading" secondItem="2Mf-RB-Lfs" secondAttribute="leading" id="bLA-ex-GWI"/>
+                                                    <constraint firstItem="p1n-LA-6OZ" firstAttribute="top" secondItem="IHZ-tH-7Ou" secondAttribute="top" constant="10" id="fZR-uB-etp"/>
+                                                    <constraint firstItem="2Mf-RB-Lfs" firstAttribute="leading" secondItem="p1n-LA-6OZ" secondAttribute="trailing" constant="15" id="mIy-0U-GUF"/>
+                                                    <constraint firstAttribute="trailing" secondItem="MG8-Dd-HEp" secondAttribute="trailing" constant="5" id="nu8-hE-hFU"/>
+                                                    <constraint firstItem="dF6-nc-02I" firstAttribute="leading" secondItem="20e-eh-5SI" secondAttribute="leading" id="pUA-uR-rhd"/>
+                                                    <constraint firstItem="20e-eh-5SI" firstAttribute="top" secondItem="2sW-LO-SCU" secondAttribute="bottom" constant="12" id="qTV-5m-Tqs"/>
+                                                    <constraint firstItem="ry4-dM-mKJ" firstAttribute="leading" secondItem="dF6-nc-02I" secondAttribute="trailing" constant="10" id="xgk-96-YK7"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nj5-7v-fgl">
+                                                <rect key="frame" x="0.0" y="113" width="925" height="50"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_key" translatesAutoresizingMaskIntoConstraints="NO" id="MSf-Tc-QBb">
+                                                        <rect key="frame" x="15" y="10" width="30" height="30"/>
+                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="BHW-bW-PvE"/>
+                                                            <constraint firstAttribute="width" constant="30" id="G6m-6Q-jrb"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Mike Rose" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rks-JB-54a" customClass="themeLabel" customModule="MyVagonDispatcher" customModuleProvider="target">
+                                                        <rect key="frame" x="60" y="12" width="78" height="26"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="Font_Size">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isMedium" value="YES"/>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3y-dt-bwV">
+                                                        <rect key="frame" x="867" y="7.5" width="43" height="35"/>
+                                                        <color key="backgroundColor" red="0.60784313729999995" green="0.31764705879999999" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="35" id="hNS-Zw-bLC"/>
+                                                        </constraints>
+                                                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="EDIT">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="btnActionEdit:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="1KX-sj-5cf"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="MSf-Tc-QBb" firstAttribute="top" secondItem="Nj5-7v-fgl" secondAttribute="top" constant="10" id="6NB-xX-GQw"/>
+                                                    <constraint firstAttribute="bottom" secondItem="MSf-Tc-QBb" secondAttribute="bottom" constant="10" id="E9S-TS-u4U"/>
+                                                    <constraint firstItem="Rks-JB-54a" firstAttribute="leading" secondItem="MSf-Tc-QBb" secondAttribute="trailing" constant="15" id="If0-q2-rdA"/>
+                                                    <constraint firstItem="Rks-JB-54a" firstAttribute="top" secondItem="Nj5-7v-fgl" secondAttribute="top" constant="12" id="Ji5-st-vmR"/>
+                                                    <constraint firstItem="MSf-Tc-QBb" firstAttribute="leading" secondItem="Nj5-7v-fgl" secondAttribute="leading" constant="15" id="dRq-90-wIC"/>
+                                                    <constraint firstItem="I3y-dt-bwV" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Rks-JB-54a" secondAttribute="trailing" constant="10" id="fpO-DK-DNl"/>
+                                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Rks-JB-54a" secondAttribute="bottom" constant="10" id="im3-Tt-7qF"/>
+                                                    <constraint firstItem="I3y-dt-bwV" firstAttribute="centerY" secondItem="Rks-JB-54a" secondAttribute="centerY" id="jiv-hB-WJ4"/>
+                                                    <constraint firstItem="Rks-JB-54a" firstAttribute="centerY" secondItem="MSf-Tc-QBb" secondAttribute="centerY" id="ln7-dV-uNH"/>
+                                                    <constraint firstAttribute="trailing" secondItem="I3y-dt-bwV" secondAttribute="trailing" constant="15" id="q3d-x5-bOc"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="SEn-HQ-7Uw" firstAttribute="leading" secondItem="E9U-QX-ZXN" secondAttribute="leading" id="IWc-ki-LDQ"/>
+                                    <constraint firstItem="SEn-HQ-7Uw" firstAttribute="top" secondItem="E9U-QX-ZXN" secondAttribute="top" id="gGN-zS-VVh"/>
+                                    <constraint firstAttribute="bottom" secondItem="SEn-HQ-7Uw" secondAttribute="bottom" id="hTR-dk-lXF"/>
+                                    <constraint firstAttribute="trailing" secondItem="SEn-HQ-7Uw" secondAttribute="trailing" id="hUF-A0-eGd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="E9U-QX-ZXN" firstAttribute="leading" secondItem="awt-gU-er4" secondAttribute="leading" constant="8" id="FHf-A0-pon"/>
+                            <constraint firstAttribute="bottom" secondItem="E9U-QX-ZXN" secondAttribute="bottom" constant="8" id="UdA-WO-GEp"/>
+                            <constraint firstItem="E9U-QX-ZXN" firstAttribute="top" secondItem="awt-gU-er4" secondAttribute="top" constant="8" id="dFC-i8-gML"/>
+                            <constraint firstAttribute="trailing" secondItem="E9U-QX-ZXN" secondAttribute="trailing" constant="8" id="dc6-xq-2g6"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="awt-gU-er4" secondAttribute="trailing" id="DVi-mQ-old"/>
+                    <constraint firstItem="awt-gU-er4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="daU-II-Dgr"/>
+                    <constraint firstAttribute="bottom" secondItem="awt-gU-er4" secondAttribute="bottom" id="hRY-rX-wg3"/>
+                    <constraint firstItem="awt-gU-er4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="nzv-Eg-zXk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnEdit" destination="I3y-dt-bwV" id="QGj-fk-670"/>
+                <outlet property="imgDriver" destination="p1n-LA-6OZ" id="fAK-RN-w8c"/>
+                <outlet property="lblAddress" destination="SKB-gz-t9H" id="nqk-Ad-lBS"/>
+                <outlet property="lblAssigned" destination="dFP-BG-NfJ" id="VBN-TI-xVa"/>
+                <outlet property="lblAvailable" destination="4d2-w7-6sP" id="qog-5i-1ky"/>
+                <outlet property="lblDriverEditNAme" destination="Rks-JB-54a" id="oWq-Ry-Fxd"/>
+                <outlet property="lblDriverName" destination="2Mf-RB-Lfs" id="a2n-kK-c79"/>
+                <outlet property="lblInactive" destination="CM3-CY-lJs" id="Hi1-u9-kka"/>
+                <outlet property="lblLoaded" destination="Y5s-eA-DDM" id="iwV-kQ-DPC"/>
+                <outlet property="lblRating" destination="h2T-9W-BqC" id="sZX-vx-Q67"/>
+                <outlet property="lblTractorPlateHint" destination="ry4-dM-mKJ" id="AcO-0M-1gZ"/>
+                <outlet property="lblTruckPlateHint" destination="MG8-Dd-HEp" id="B1L-el-hLY"/>
+                <outlet property="lblTruckType" destination="zdZ-Hb-KQH" id="tGT-Kn-0KV"/>
+                <outlet property="viewContent" destination="E9U-QX-ZXN" id="hZs-wv-Sxu"/>
+                <outlet property="viewEdit" destination="Nj5-7v-fgl" id="3EQ-gk-iYX"/>
+                <outlet property="viewTop" destination="IHZ-tH-7Ou" id="Hak-1y-4y0"/>
+            </connections>
+            <point key="canvasLocation" x="286.23188405797106" y="114.17410714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_PickUp" width="13" height="16.5"/>
+        <image name="ic_Selected" width="39" height="37.5"/>
+        <image name="ic_key" width="20" height="20"/>
+        <image name="ic_userIcon" width="56" height="56"/>
+        <namedColor name="ThemeDarkYelloColor">
+            <color red="0.85882352941176465" green="0.6470588235294118" blue="0.22352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ThemeGrayColor">
+            <color red="0.60392156862745094" green="0.60392156862745094" blue="0.66274509803921566" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ThemeGreenColor">
+            <color red="0.094117647058823528" green="0.60784313725490191" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ThemeTamotoColor">
+            <color red="0.83529411764705885" green="0.41176470588235292" blue="0.41176470588235292" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
